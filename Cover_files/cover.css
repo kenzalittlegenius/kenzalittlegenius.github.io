@@ -41,9 +41,14 @@ body {
 .cover-container {
   max-width: 42em;
 }
+
+/*
+ * Header
+ */
+
 .bg {
   /* The image used */
-
+  background-image: url("/ciel.JPG");
   /* Full height */
   height: 100%;
 
@@ -53,9 +58,6 @@ body {
   background-size: cover;
 }
 
-/*
- * Header
- */
 .masthead {
   margin-bottom: 2rem;
 }
