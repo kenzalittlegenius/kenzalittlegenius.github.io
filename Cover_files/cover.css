@@ -45,19 +45,6 @@ body {
  * Header
  */
 
-.bg {
-  /* The image used */
-  background-image: url("/ciel.JPG");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .masthead {
   margin-bottom: 2rem;
 }
@@ -95,6 +82,19 @@ body {
   .nav-masthead {
     float: right;
   }
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/ciel.JPG");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*
