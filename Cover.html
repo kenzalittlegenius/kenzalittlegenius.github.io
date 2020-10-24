@@ -25,20 +25,25 @@
 
 
     <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+      body, html {
+  height: 100%;
+  margin: 0;
+}
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
+.bg {
+  /* The image used */
+  background-image: url("ciel.JPG");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+      
     </style>
     <!-- Custom styles for this template -->
     <link href="./Cover_files/cover.css" rel="stylesheet">
@@ -57,11 +62,14 @@
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="https://getbootstrap.com/docs/4.4/examples/cover/#" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
+
+    <body>
+
+      <div class="bg"></div>
+      
+      <p>This example creates a half page background image. Try to resize the browser window to see how it always will cover 50% of the screen, and that it scales nicely on all screen sizes.</p>
+      
+      </body>
   </main>
 
   <footer class="mastfoot mt-auto">
