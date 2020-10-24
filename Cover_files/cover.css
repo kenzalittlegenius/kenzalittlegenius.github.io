@@ -25,10 +25,17 @@ a:hover {
 
 body,
 html {
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
   margin: 0;
 }
 
+body {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
 
 .cover-container {
   max-width: 42em;
