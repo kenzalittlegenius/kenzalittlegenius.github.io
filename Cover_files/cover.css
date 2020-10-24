@@ -46,11 +46,6 @@ body {
  * Header
  */
 
-.bg {
-  /* The image used */
-  background-image: url("/ciel.JPG");
-}
-
 .masthead {
   margin-bottom: 2rem;
 }
