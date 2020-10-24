@@ -29,10 +29,6 @@ html {
   display: flex;
   height: 100%;
   margin: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 
 body {
