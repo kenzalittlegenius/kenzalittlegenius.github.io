@@ -50,6 +50,7 @@ body {
   background-image: url("/ciel.JPG");
   /* Full height */
   height: 100%;
+  width: 100%;
 
   /* Center and scale the image nicely */
   -webkit-background-size: cover;
